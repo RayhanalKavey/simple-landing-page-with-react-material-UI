@@ -1,6 +1,7 @@
 import React from "react";
 import Brands from "../Brands/Brands";
 import ExperimentalComponent from "../ExperimentalComponent/ExperimentalComponent";
+import Faq from "../FAQ/Faq";
 import HeroCard from "../HeroCard/HeroCard";
 import HeroSection from "../HeroSection/HeroSection";
 import OurWorks from "../OurWorks/OurWorks";
@@ -13,6 +14,7 @@ const Home = () => {
       <Brands></Brands>
       <Services></Services>
       <OurWorks></OurWorks>
+      <Faq></Faq>
     </div>
   );
 };

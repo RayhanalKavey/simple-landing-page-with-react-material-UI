@@ -57,6 +57,7 @@ export default function Header(props) {
         sx={{
           backgroundColor: "transparent",
           boxShadow: "none",
+          position: "static",
         }}
       >
         <Container>

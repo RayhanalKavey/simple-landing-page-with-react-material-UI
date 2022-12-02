@@ -18,7 +18,11 @@ const OurWorks = () => {
     setValue(newValue);
   };
   return (
-    <Box>
+    <Box
+      sx={{
+        mb: "5.5rem",
+      }}
+    >
       {/* Heading section */}
 
       <Box
@@ -40,7 +44,19 @@ const OurWorks = () => {
             sx={{ textAlign: "left", mb: 0 }}
           ></SectionTitle>
         </Box>
-        <Box sx={{ display: "flex", space: 2, alignItems: "center" }}>
+        <Box
+          sx={{
+            display: "flex",
+            space: 2,
+            alignItems: "center",
+            flexDirection: {
+              xs: "column",
+              sm: "column",
+              md: "column",
+              lg: "row",
+            },
+          }}
+        >
           <Box>
             <Tabs
               value={value}
@@ -66,7 +82,7 @@ const OurWorks = () => {
             </Tabs>
           </Box>
 
-          <Box>
+          <Box sx={{ width: "full" }}>
             <IconButton
               sx={{ border: "1px solid black", mr: 2 }}
               onClick={() => setValue(value - 1)}
