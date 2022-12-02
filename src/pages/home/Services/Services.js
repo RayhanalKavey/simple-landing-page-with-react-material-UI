@@ -11,7 +11,7 @@ const servicesImages = [
 
 const Services = () => {
   return (
-    <Box>
+    <Box sx={{ mb: "4rem" }}>
       <SectionTitle title="Provide Services" colored="services"></SectionTitle>
       <Grid container spacing={3}>
         {servicesImages.map((img, index) => (

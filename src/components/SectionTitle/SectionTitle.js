@@ -8,8 +8,9 @@ const SectionTitle = ({ title, colored }) => {
         <Typography
           sx={{
             color: "primary.green",
-            fontSize: "24px",
+            fontSize: "20px",
             fontWeight: "bold",
+            textTransform: "uppercase",
           }}
         >
           {colored}{" "}
