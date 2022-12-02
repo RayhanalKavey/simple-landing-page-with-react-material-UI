@@ -28,7 +28,7 @@ export default function Header(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        MUI
+        Digital Agency
       </Typography>
       <Divider />
       <List>
@@ -87,7 +87,7 @@ export default function Header(props) {
                 display: { xs: "none", sm: "block" },
               }}
             >
-              MUI
+              Digital Agency
             </Typography>
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
               {navItems.map((item) => (

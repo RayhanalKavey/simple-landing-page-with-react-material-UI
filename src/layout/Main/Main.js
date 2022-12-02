@@ -1,17 +1,18 @@
-import { Container } from "@mui/material";
+import { Box, Container } from "@mui/material";
 import React from "react";
 import { Outlet } from "react-router-dom";
+import Footer from "../../pages/shared/Footer/Footer";
 import Header from "../../pages/shared/Header/Header";
 
 const Main = () => {
   return (
-    <div>
+    <Box>
       <Container>
         <Header></Header>
         <Outlet></Outlet>
-        <div style={{ marginTop: "40px" }}>Footer</div>
       </Container>
-    </div>
+      <Footer></Footer>
+    </Box>
   );
 };
 
